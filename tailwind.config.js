@@ -9,8 +9,12 @@ export default {
 			darkMode: 'class',
 			colors: {
 				'black-pink': '#291A5D',
-				'pink': '#9146FF'
+				'pink': '#9146FF',
+				'gray': '#4F4F4F'
 			},
+			fontFamily: {
+				'2MASS-J1808': '"2MASS J1808 Normal"'
+			}
 		},
 	},
 	plugins: [],

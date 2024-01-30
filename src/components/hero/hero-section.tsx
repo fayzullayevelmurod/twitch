@@ -4,7 +4,7 @@ import './hero-section.css'
 
 export const HeroSection = () => {
 	return (
-		<div className="hero-section pb-[295px] relative z-10">
+		<div className="hero-section pb-[255px] relative z-10">
 			<div className="container">
 				<Header />
 
@@ -14,7 +14,7 @@ export const HeroSection = () => {
 					<a className="btn" href="#!">накрутить</a>
 				</div>
 			</div>
-			<img className="absolute z-[-1] bottom-[225px]" src={assets.dotsIcon} alt="dots icon" />
+			<img className="absolute z-[-1] bottom-[188px]" src={assets.dotsIcon} alt="dots icon" />
 		</div>
 	)
 }

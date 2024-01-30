@@ -22,6 +22,7 @@ a {
 
 .dark {
 	@apply text-white bg-black-pink;
+	color:  #fff !important;
 }
 
 .other-font {
