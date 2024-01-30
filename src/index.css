@@ -3,5 +3,49 @@
 @tailwind utilities;
 
 body {
-	@bg-color: purple;
+	@apply leading-[normal] m-0 font-medium font-['Gilroy'];
+}
+
+*,
+::before,
+::after {
+	@apply transition-colors duration-200 border-none;
+}
+
+a {
+	@apply inline-block;
+}
+
+.container {
+	@apply max-w-[1160px] mx-auto;
+}
+
+.dark {
+	@apply text-white bg-black-pink;
+}
+
+.other-font {
+	font-family: "2MASS J1808 Normal";
+}
+
+.btn:active,
+.btn:focus {
+	box-shadow: 0px 10px 40px 0px rgba(43, 205, 252, 0.50), 0px 8px 0px 0px #098EB7;
+}
+
+.btn {
+	border-radius: 6px;
+	background: linear-gradient(93deg, #64DCFA 1.27%, #00C2FF 98.86%);
+	box-shadow: 0px 10px 40px 0px rgba(43, 205, 252, 0.50), 0px 8px 0px 0px #098EB7;
+	padding: 35px 60px;
+	color: #FFF;
+	text-align: center;
+	leading-trim: both;
+	text-edge: cap;
+	font-family: "2MASS J1808 Normal";
+	font-size: 25px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 85%;
+	text-transform: uppercase;
 }

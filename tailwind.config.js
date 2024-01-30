@@ -7,8 +7,11 @@ export default {
 	theme: {
 		extend: {
 			darkMode: 'class',
+			colors: {
+				'black-pink': '#291A5D',
+				'pink': '#9146FF'
+			},
 		},
-
 	},
 	plugins: [],
 }
