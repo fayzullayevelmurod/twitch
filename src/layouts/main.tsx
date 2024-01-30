@@ -1,9 +1,10 @@
-import { HeroSection } from "../components";
-import { Servise } from "../components/servise/servise";
+import { AdvantagesSection, HeroSection, Prices, Servise } from "../components";
 
 export const Main = () => (
-	<>
+	<main>
 		<HeroSection />
 		<Servise />
-	</>
+		<AdvantagesSection />
+		<Prices />
+	</main>
 )

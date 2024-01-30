@@ -22,7 +22,7 @@ a {
 
 .dark {
 	@apply text-white bg-black-pink;
-	color:  #fff !important;
+	color: #fff !important;
 }
 
 .other-font {
@@ -41,12 +41,19 @@ a {
 	padding: 35px 60px;
 	color: #FFF;
 	text-align: center;
-	leading-trim: both;
-	text-edge: cap;
 	font-family: "2MASS J1808 Normal";
 	font-size: 25px;
 	font-style: normal;
 	font-weight: 400;
 	line-height: 85%;
+	text-transform: uppercase;
+}
+
+.title-text {
+	color: #4F4F4F;
+	font-family: "2MASS J1808 Normal";
+	font-size: 57px;
+	font-weight: 400;
+	line-height: 100%;
 	text-transform: uppercase;
 }
