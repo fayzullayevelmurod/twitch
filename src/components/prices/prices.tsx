@@ -111,7 +111,7 @@ export const Prices: React.FC = () => {
 								</div>
 							</div>
 							<p>Выберите период:</p>
-							<div className='mt-3 mb-7 relative sel'>
+							{/* <div className='mt-3 mb-7 relative sel'>
 								<select onChange={handleChange} className='relative outline-none pl-[19px] w-[166px] rounded-[0.5rem] border border-pink border-5 border-solid h-[2.6rem] text-[1.06rem] font-normal leading-[1.9rem] rounded-7'>
 									<option disabled selected>Месяц</option>
 									<option value="1">1</option>
@@ -123,8 +123,8 @@ export const Prices: React.FC = () => {
 										<path d="M1 0.5L9 8.5L17 0.5" stroke="#9146FF" />
 									</svg>
 								</div>
-							</div>
-							<a className='btn-md' href="#!">купить за 1500Р</a>
+							</div> */}
+							<a className='btn-md mt-[80px]' href="#!">купить за 1500Р</a>
 						</div>
 					</div>
 					<div className="price-box bg-white rounded-[0.75rem] rounded-br-[6.25rem]">

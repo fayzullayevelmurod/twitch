@@ -3,7 +3,7 @@ import { Order } from "../components/order/order";
 
 export const Main = () => (
 	<main>
-		<HeroSection />
+		<HeroSection  />
 		<Servise />
 		<AdvantagesSection />
 		<Prices />

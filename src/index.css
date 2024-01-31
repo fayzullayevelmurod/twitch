@@ -32,8 +32,38 @@ textarea {
 }
 
 .dark {
-	@apply text-white bg-black-pink;
-	color: #fff !important;
+	@apply bg-black-pink;
+	@apply text-white;
+}
+
+.dark .light {
+	color: #fff;
+}
+
+.dark .blue-card {
+	background-color: #64DCFA;
+}
+
+.dark .white-bg {
+	background-color: white;
+	color: #4F4F4F;
+}
+
+.dark .dark-text {
+	color: #4F4F4F;
+}
+.dark .dark-input {
+	background-color: #F3F3F3;
+}
+
+.dark .pink-card {
+	background-color: #9146FF;
+}
+
+@media (prefers-color-scheme: dark) {
+	.dark {
+		@apply bg-black-pink text-white;
+	}
 }
 
 .other-font {
@@ -86,11 +116,4 @@ textarea {
 
 .title-text__white {
 	color: #fff;
-}
-
-@media (prefers-color-scheme: dark) {
-	.dark-mode {
-		background-color: black;
-		color: white;
-	}
 }

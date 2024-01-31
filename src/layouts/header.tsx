@@ -68,7 +68,6 @@ export const Header = () => {
 					</li>
 				</ul>
 			</nav>
-
 			<div className="border border-white border-solid rounded">
 				<button
 					className={`px-3 py-1.5 text-white rounded-l-sm rounded-r ${darkMode ? 'bg-pink' : 'bg-transparent'}`}

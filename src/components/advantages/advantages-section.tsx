@@ -15,7 +15,7 @@ export const AdvantagesSection = () => (
 					</div>
 				</div>
 
-				<div className='relative bg-black-pink dark:bg-[#64DCFA] rounded-[6rem] w-[360px]'>
+				<div className='relative bg-black-pink blue-card rounded-[6rem] w-[360px]'>
 					<div className="relative h-full advantage-box__two space-y-[17px] font-normal px-12 pt-11 pb-[67px] w-[360px] text-gray rounded-br-[12rem] rounded-[0.75rem] bg-white">
 						<h4 className='text-xl leading-[230%]'>Безопасность</h4>
 						<p className="text-xl">
@@ -24,7 +24,7 @@ export const AdvantagesSection = () => (
 					</div>
 				</div>
 
-				<div className='relative  bg-black-pink dark:bg-[#64DCFA] rounded-[6rem] w-[360px]'>
+				<div className='relative  bg-black-pink blue-card rounded-[6rem] w-[360px]'>
 					<div className="relative h-full advantage-box__two space-y-[17px] font-normal px-12 pt-11 pb-[67px] w-[360px] text-gray rounded-br-[12rem] rounded-[0.75rem] bg-white">
 						<h4 className='text-xl leading-[230%]'>Эффективность</h4>
 						<p className="text-xl">
@@ -33,7 +33,7 @@ export const AdvantagesSection = () => (
 					</div>
 				</div>
 
-				<div className='relative  bg-black-pink dark:bg-[#64DCFA] rounded-[6rem] w-[360px]'>
+				<div className='relative  bg-black-pink blue-card rounded-[6rem] w-[360px]'>
 					<div className="relative h-full advantage-box__two space-y-[17px] font-normal px-12 pt-11 pb-[67px] w-[360px] text-gray rounded-br-[12rem] rounded-[0.75rem] bg-white">
 						<h4 className='text-xl leading-[230%]'>Анонимность</h4>
 						<p className="text-xl">
@@ -42,7 +42,7 @@ export const AdvantagesSection = () => (
 					</div>
 				</div>
 
-				<div className='relative  bg-black-pink dark:bg-[#64DCFA] rounded-[6rem] w-[360px]'>
+				<div className='relative  bg-black-pink blue-card rounded-[6rem] w-[360px]'>
 					<div className="relative h-full advantage-box__two space-y-[17px] font-normal px-12 pt-11 pb-[67px] w-[360px] text-gray rounded-br-[12rem] rounded-[0.75rem] bg-white">
 						<h4 className='text-xl leading-[230%]'>Индивидуальный подход</h4>
 						<p className="text-xl">
@@ -51,7 +51,7 @@ export const AdvantagesSection = () => (
 					</div>
 				</div>
 
-				<div className='relative  bg-black-pink dark:bg-[#64DCFA] rounded-[6rem] w-[360px]'>
+				<div className='relative  bg-black-pink blue-card rounded-[6rem] w-[360px]'>
 					<div className="relative h-full advantage-box__two space-y-[17px] font-normal px-12 pt-11 pb-[67px] w-[360px] text-gray rounded-br-[12rem] rounded-[0.75rem] bg-white">
 						<h4 className='text-xl leading-[230%]'>Техническая поддержка</h4>
 						<p className="text-xl">
