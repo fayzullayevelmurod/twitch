@@ -20,31 +20,52 @@ export const Header = () => {
 		setIsButton1Clicked(false);
 	};
 
-	const menuList = [
-		'О сервисе',
-		'Преимущества',
-		'Тарифы',
-		'Тарифы',
-		'Статьи',
-		'Заказать'
-	]
-
 	return (
 		<header className="flex items-center justify-between pt-8">
 			<a className="text-white text-3xl font-normal" href="#!">LOGO</a>
 
 			<nav>
 				<ul className="flex items-center gap-[1.875rem]">
-					{menuList ? menuList.map((item, index) => (
-						<li key={index}>
-							<a
-								className="text-white text-lg font-normal leading-10"
-								href="#!"
-							>
-								{item}
-							</a>
-						</li>
-					)) : null}
+					<li>
+						<a
+							className="text-white text-lg font-normal leading-10"
+							href="#servise"
+						>
+							О сервисе
+						</a>
+					</li>
+					<li>
+						<a
+							className="text-white text-lg font-normal leading-10"
+							href="#advantages"
+						>
+							Преимущества
+						</a>
+					</li>
+					<li>
+						<a
+							className="text-white text-lg font-normal leading-10"
+							href="#price"
+						>
+							Тарифы
+						</a>
+					</li>
+					<li>
+						<a
+							className="text-white text-lg font-normal leading-10"
+							href="#articles"
+						>
+							Статьи
+						</a>
+					</li>
+					<li>
+						<a
+							className="text-white text-lg font-normal leading-10"
+							href="#order"
+						>
+							Заказать
+						</a>
+					</li>
 				</ul>
 			</nav>
 
@@ -62,6 +83,6 @@ export const Header = () => {
 			<button
 				className="px-4 h-[2.2rem] bg-violet-500 text-[1rem] text-white rounded border border-white "
 			>Регистрация/Вход</button>
-		</header>
+		</header >
 	)
 }

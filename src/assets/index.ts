@@ -11,5 +11,5 @@ export default {
 	operator,
 	pinkCardVektor,
 	darkCardVektor,
-	lightCardVektor,
+	lightCardVektor
 }

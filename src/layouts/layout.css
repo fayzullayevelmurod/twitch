@@ -1,3 +1,14 @@
 .header {
 	padding-top: 33px;
 }
+
+/* footer */
+footer {
+	background-image: url(../assets/images/footer-bg.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding-bottom: 108px;
+	padding-top: 235px;
+	text-align: center;
+	margin-top: 38px;
+}
